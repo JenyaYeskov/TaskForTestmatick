@@ -1,6 +1,4 @@
-/**
- * Created by ${Zhenya} on 001 01.02.18.
- */
+
 class RandomCircleMaker implements ShapeMaker {
     @Override
     public Shape getShape() {

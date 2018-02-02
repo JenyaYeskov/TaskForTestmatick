@@ -1,6 +1,4 @@
-/**
- * Created by ${Zhenya} on 031 31.01.18.
- */
+
 public class Square implements Shape {
 
     private double side;
@@ -20,7 +18,7 @@ public class Square implements Shape {
     public String getArea() {
         double s = side * side;
 
-        if (s > 0 )
+        if (s > 0)
             return String.valueOf(s);
         else return "Cant calculate area. Maybe square is impossible?";
     }

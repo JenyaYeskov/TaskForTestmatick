@@ -1,6 +1,4 @@
-/**
- * Created by ${Zhenya} on 031 31.01.18.
- */
+
 public class Circle implements Shape {
     private double radius;
     private Colours colour;

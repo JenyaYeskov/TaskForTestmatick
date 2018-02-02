@@ -1,6 +1,4 @@
-/**
- * Created by ${Zhenya} on 031 31.01.18.
- */
+
 public class Triangle implements Shape {
     private double sideA;
     private double sideB;
