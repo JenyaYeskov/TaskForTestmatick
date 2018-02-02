@@ -22,7 +22,9 @@ public class Triangle implements Shape {
         double p = (sideA + sideB + sideC) / 2;
         double s = Math.sqrt(p * (p - sideA) * (p - sideB) * (p - sideC));
 
-        if (s > 0)
+//        Перевірка чи трикутник можливий
+
+        if (s > 0  && sideA > 0 && sideB > 0 && sideC > 0)
             return String.valueOf(s);
         else return "Cant calculate area. Maybe triangle is impossible?";
     }

@@ -26,7 +26,9 @@ public class Trapezoid implements Shape {
         double s = ((baseA + topB) / Math.abs(baseA - topB)) * Math.sqrt((p - baseA) * (p - topB) * (p - baseA - sideC)
                 * (p - baseA - sideD));
 
-        if (s > 0)
+        //Перевірка чи трапеція можлива
+
+        if (s > 0 && baseA > 0 && topB > 0 && sideC > 0 && sideD > 0)
             return String.valueOf(s);
         else return "Cant calculate area. Maybe trapezoid is impossible?";
     }

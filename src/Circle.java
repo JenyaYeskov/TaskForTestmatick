@@ -17,7 +17,7 @@ public class Circle implements Shape {
     public String getArea() {
         double s = Math.PI * (radius * radius);
 
-        if (s > 0)
+        if (s > 0 && radius > 0)
             return String.valueOf(s);
         else return "Cant calculate area. Maybe circle is impossible?";
     }
